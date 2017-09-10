@@ -5,7 +5,6 @@ import { SnotifyConfig } from './interfaces/SnotifyConfig.interface';
 /**
  * SnotifyService - create, remove, config toasts
  */
-
 export interface SnotifyService extends Vue {
   notifications: SnotifyToast[];
   readonly config: SnotifyConfig;
